@@ -13,5 +13,14 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.18"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reaganjoseph26/Pizza-Hunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reaganjoseph26/Pizza-Hunt/issues"
+  },
+  "homepage": "https://github.com/reaganjoseph26/Pizza-Hunt#readme"
 }
