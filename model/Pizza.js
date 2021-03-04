@@ -1,4 +1,6 @@
 const { Schema, model } = require('mongoose');
+// const pizza = await Pizza.findOne()
+// pizza.commentCount
 
 const PizzaSchema = new Schema(
   {
@@ -38,8 +40,7 @@ PizzaSchema.virtual('commentCount').get(function() {
   return this.comments.length;
 });
 
-// const pizza = await Pizza.findOne()
-// pizza.commentCount // 5
+
 
 const Pizza = model('Pizza', PizzaSchema)
 
